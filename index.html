@@ -1,1 +1,452 @@
-Hello World
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>s-mende.github.io</title>
+  <script type="text/javascript">
+    // smartphone
+    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+      location.href = './sp.html';
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lib/swiper/swiper.min.css">
+  <link rel="stylesheet" href="js/lib/styles/xt256.css">
+  <script src="js/lib/highlight.pack.js"></script>
+  <script src="js/lib/swiper/swiper.min.js"></script>
+  <script src="js/lib/jquery-2.1.0.min.js"></script>
+  <script src="js/lib/skrollr.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="canonical" href="/">
+</head>
+
+<body>
+
+  <div id="home" data-3500="top:0px;" data-3510="top:-1%;" data-5200="top:-100%;">
+    <div id="status_navi">
+      <div class="float_left">
+        <i class="fa fa-circle" style="color:#FF484F"></i>
+        <i class="fa fa-circle" style="color:#FFBD00"></i>
+        <i class="fa fa-circle" style="color:#00D437"></i>
+      </div>
+      <div class="status_navi_text float_right">
+        index.ts--s-mende.github.io
+      </div>
+    </div>
+    <div class="side-menu">
+      <ul id="showchange">
+        <li>
+          <i class="fa fa-file fa-2x"></i>
+        </li>
+        <li>
+          <i class="fa fa-search fa-2x fa-flip-horizontal"></i>
+        </li>
+        <li>
+          <i class="fa fa-code-fork fa-2x"></i>
+        </li>
+        <li>
+          <span class="fa-stack">
+            <i class="fa fa-bug  fa-stack-1x fa-rotate-90"></i>
+            <i class="fa fa-ban fa-stack-2x fa-flip-horizontal"></i>
+          </span>
+        </li>
+        <li>
+          <i class="fa fa-qrcode fa-2x"></i>
+        </li>
+      </ul>
+      <ul class="setting">
+        <li>
+          <i class="fa fa-cog fa-2x"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="side">
+      <dl>
+        <dd class="status_navi_text">エクスプローラー</dd>
+        <dt>
+          <i class="fa fa-caret-down"></i> 開いているエディター</dt>
+        <dd class="file" id="welcome-body1">
+          <img src="img/Codeicon.svg.png" style="width:12px"> ようこそ</dd>
+        <dd class="file current">
+          <i class="fa fa-code"></i>index.ts</dd>
+        <dt>
+          <i class="fa fa-caret-down"></i> S-MENDE.GITHUB.IO</dt>
+        <dd>
+          <i class="fa fa-caret-down"></i>home</dd>
+        <dd class="file current">
+          <i class="fa fa-code"></i>index.ts</dd>
+        <dd>
+          <a href="#about">
+            <i class="fa fa-caret-right"></i>about</a>
+        </dd>
+        <dd>
+          <a href="#works">
+            <i class="fa fa-caret-right"></i>works</a>
+        </dd>
+        <dd>
+          <a href="#skills">
+            <i class="fa fa-caret-right"></i>skills</a>
+        </dd>
+        <dd>
+          <a href="#contact">
+            <i class="fa fa-caret-right"></i>contact</a>
+        </dd>
+      </dl>
+    </div>
+
+    <div class="main">
+      <div class="tabs">
+        <div class="tab" id="welcome-body2">
+          <img src="img/Codeicon.svg.png" style="width:13px"> ようこそ
+        </div>
+        <div class="tab current" id="current-body">
+          <i class="fa fa-code"></i>　index.ts
+        </div>
+      </div>
+      <div class="body">
+        <div class="lines">
+          1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9
+          <br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19
+          <br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29
+          <br />30<br />31<br />32<br />33<br />34<br />35<br />36<br />37<br />38<br />39<br />40
+        </div>
+        <pre><code id="comment">/************************************
+* s-mende.github.io
+*
+* author: suchin-mende
+************************************/</code>
+<code id="code">class Author {
+  constructor (public Name: string) { }
+}
+let author = new Author("Suchin-Mende");
+
+<!-- console.log("I am an engineer"); -->
+console.log("Thanks for visiting my portfolio");
+console.log(`${author.Name}`);
+</code></pre>
+      </div>
+      <!--/ body -->
+
+      <div id="scroll_attention" data-0="opacity:1;" data-200="opacity:0;">
+        スクロールしてください
+        <br />
+        <div class="down_arrow"></div>
+      </div>
+      <!--/ scroll_attention -->
+
+      <div class="welcome-body swiper-container">
+        <!-- スライダー部分 -->
+        <div class="swiper-wrapper">
+          <iframe class="swiper-slide" src="http://mrdoob.com/projects/chromeexperiments/ball-pool/"></iframe>
+          <iframe class="swiper-slide" src="https://mrdoob.neocities.org/"></iframe>
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/glsl_sandbox/"></iframe> -->
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/voxels/"></iframe> -->
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/harmony/"></iframe> -->
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/chromeexperiments/google-gravity/">落ちるgoogle</iframe> -->
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/lab/javascript/effects/branching/01/"></iframe> -->
+          <!-- <iframe class="swiper-slide" src="http://mrdoob.com/lab/javascript/beachballs/" width="600px"></iframe> -->
+          <iframe class="swiper-slide" src="http://mrdoob.com/projects/htmleditor/" allowtransparency="true"></iframe>
+        </div>
+
+        <!-- 左右の矢印ボタン -->
+        <div class="swiper-button-prev">↓</div>
+        <div class="swiper-button-next">＞</div>
+
+        <!-- スクロールバー -->
+        <div class="swiper-scrollbar"></div>
+
+
+      </div>
+      <!--/ welcome-body -->
+
+    </div>
+    <!--/ main -->
+
+    <div id="global_navi">
+      <div class="editor_foot">
+        <div class="float_left">
+          INSERT MODE, Line
+          <span id="line-num">1</span>, Column
+          <span id="col-num">1</span>
+        </div>
+        <div class="float_right">
+          <span class="charset">UTF-8</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="navi_menu">
+        <div class="logo cf">
+          <a href="#home">
+            <span>s-mende</span>
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li>
+            <a href="#skills">SKILLS</a>
+          </li>
+          <li>
+            <a href="#works">WORKS</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        <span id="navi_marker" data-7900="bottom:-5px;" data-8000="bottom:0px;" data-14300="right:385px;" data-14400="right:273px;"
+          data-16500="right:273px;" data-16600="right:162px;" data-21900="right:162px;" data-22000="right:43px;"></span>
+      </div>
+    </div>
+    <!--/ global_navi -->
+  </div>
+  <!--/ home -->
+
+  <div id="bg1" data-3500="top:60%;" data-8000="top:-100%; display: block;" data-13000="display:none;"></div>
+  <div class="white_text" data-4500="top:45%;" data-10000="top:100%;">My name is Mende.OHAYO~</div>
+
+  <div id="about" data-4500="top:100%;" data-8000="top:0%;" data-11300="top:0%;" data-14000="top:-100%;" data-16600="top:-100%;"
+    data-16700="top:-200%">
+    <h2>ABOUT</h2>
+    <div class="wrap">
+      <div class="image">
+        <img src="img/profile.png" alt="suchin">
+      </div>
+      <div class="textbox">
+        <div class="text" data-8500="opacity:1;z-index:10;" data-8800="opacity:0;z-index:0;">
+          <h3>Suchin Mende</h3>
+          <p>
+            時にはフロントエンジニア、
+            <br />時にはバックエンドエンジニア、
+            <br />そして時々スマホアプリエンジニアで、
+            <br />ある時にはインフラエンジニアまで担って来た。
+            <br />
+            <br />やるからには何でも熟るように、、これが原点。
+            <br />いつの間にか趣味も仕事もプログラミングになっていた。
+            <br />後に自分が目指したそれをフルスタックエンジニアというのを知った。
+            <br />
+          </p>
+        </div>
+        <div class="text" data-8800="opacity:0;" data-9100="opacity:1;" data-10000="opacity:1;" data-10300="opacity:0;">
+          <h3>職歴</h3>
+          <p>
+            システム関連会社でWEBシステム制作を５年程勤める。
+            <br /> アプリケーション関連会社に転勤し、アプリエンジニアやオフショアPJのプロマネなどを5年間近く経験。
+            <br /> フリーになり、入札システムや業務用スマホアプリの制作などで2年間近く独立。
+            <br /> ロジスティックス関連会社に入社し、iPadアプリや倉庫管理システムの制作に２年間程携わる。
+            <br /> 再びフリーになり、故郷のために技術力を活かすべく、奮闘中。
+
+          </p>
+        </div>
+        <!-- <div class="text" data-10300="opacity:0;" data-10600="opacity:1;">
+          <h3>工事中、、</h3>
+          <p>
+            モンゴルITを最先端へ
+          </p>
+        </div> -->
+        <div class="marker_area">
+          <span class="pointer" data-8850="left:13px;" data-9150="left:53px;" data-10350="left:53px;" data-10750="left:93px;"></span>
+          <div class="marker_wrap">
+            <span class="marker"></span>
+            <span class="marker"></span>
+            <!-- <span class="marker"></span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <h2>SKILLS</h2>
+    </div>
+  </div>
+  <!--/ about -->
+
+  <div id="skills_body" data-9500="display: none;" data-10000="display:block;" data-16600="display: none;">
+    <ul class="graphs" data-10000="left: -25%;" data-14000="left: 30%;">
+      <li data-13000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15000="margin-top: 0%;" data-16000="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 60px;"></div>
+        </div>
+        <div class="title">HTML、CSS</div>
+        <div class="image">
+          <img src="img/skills_html.png" alt="HTML">
+        </div>
+      </li>
+      <li data-12500="margin-top: -100%;" data-14000="margin-top: 0%;" data-15600="margin-top: 0%;" data-16600="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 60px;"></div>
+        </div>
+        <div class="title">PHP</div>
+        <div class="image">
+          <img src="img/skills_php.png" alt="HTML">
+        </div>
+      </li>
+      <li data-12000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15300="margin-top: 0%;" data-16300="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 60px;"></div>
+        </div>
+        <div class="title">JavaScript</div>
+        <div class="image">
+          <img src="img/skills_js.png" alt="HTML">
+        </div>
+      </li>
+    </ul>
+    <ul class="graphs" data-10000="right: -25%;" data-14000="right: 30%;">
+      <li data-13000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15750="margin-top: 0%;" data-16750="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 90px;"></div>
+        </div>
+        <div class="title">Objective-c、swift</div>
+        <div class="image">
+          <img src="img/skills_objective-C-swift.gif" alt="HTML">
+        </div>
+      </li>
+      <li data-12000="margin-top: -100%;" data-14000="margin-top: 0%;" data-15450="margin-top: 0%;" data-16450="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 110px;"></div>
+        </div>
+        <div class="title">Ruby</div>
+        <div class="image">
+          <img src="img/skills_ruby.png" alt="HTML">
+        </div>
+      </li>
+      <li data-12500="margin-top: -100%;" data-14000="margin-top: 0%;" data-15150="margin-top: 0%;" data-16150="margin-top: -200%;">
+        <div class="graph">
+          <div class="graph_inner" data-13000="margin-top: 400px;" data-14400="margin-top: 145px;"></div>
+        </div>
+        <div class="title">Java,Java-Android</div>
+        <div class="image">
+          <img src="img/skills_java.png" alt="HTML">
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--/ skills_body -->
+
+  <div id="works" data-15500="right: 100%;" data-16600="right: 0;" data-17500="top: 0%;" data-19500="top: -150%;">
+    <h2>WORKS</h2>
+    <div id="copyright" data-22000="opacity:1;">※個人で携わったもののみになります</div>
+    <ul id="work_list" class="flips images cf">
+      <li>
+        <a class="flip" href="" target="_blank">
+          <div class="off">
+            <i class="fa fa-sitemap"></i>
+            <span>Webシステム類
+              <br>〜WordpressやEC-cubeを使ったシステム等〜
+            </span>
+          </div>
+          <img class="on" src="img/works1.jpg" alt="WordpressやEC-cubeを使ったシステム" />
+        </a>
+      </li>
+      <li>
+        <a class="flip" href="" target="_blank">
+          <div class="off">
+            <i class="fa fa-apple"></i>
+            <span>スマホアプリ
+              <br />〜iOS、Androidアプリ全般〜</span>
+          </div>
+          <img class="on" src="img/works2.jpg" alt="英語学習アプリ" />
+        </a>
+      </li>
+      <li>
+        <a class="flip" href="" target="_blank">
+          <div class="off">
+            <i class="fa fa-gamepad"></i>
+            <span>ミニゲーム類
+              <br>〜主にイベントなどのため作成したミニゲーム〜</span>
+          </div>
+          <img class="on" src="img/works3.jpg" alt="ミニパーティーゲーム" />
+        </a>
+      </li>
+      <li>
+        <a class="flip" href="" target="_blank">
+          <div class="off">
+            <i class="fa fa-edit"></i>
+            <span>テキストエディター（モンゴル語）
+              <br>〜サイトに組込んで使うようなもの〜
+            </span>
+          </div>
+          <img class="on" src="img/works4.jpg" alt="モンゴル語組込エディター" />
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!--/ works -->
+
+  <div id="bg2" data-15500="top:0%;" data-22000="top:-100%;"></div>
+  <div class="white_text" data-17500="top:-20%;" data-22000="top:100%;">Tan'd bayarlala.</div>
+  </div>
+
+  <div id="contact" data-18800="top:100%;" data-22000="top:0%;">
+    <h2>CONTACT</h2>
+    <!-- [form start] -->
+    <link href="https://form.os7.biz/current//css/design-pc1/common.css" rel='stylesheet' type='text/css'>
+    <link href="https://form.os7.biz/current//css/design-pc1/black.css" rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://form.os7.biz/current//js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://form.os7.biz/current//js/of_lib.js"></script>
+    <script type="text/javascript" src="https://form.os7.biz/current//js/js.cookie-2.2.0.min.js"></script>
+    <form action="https://form.os7.biz/form/submit/" method="post" id="OF_form1" style="margin: auto;">
+      <input type="hidden" name="form_id" value="122570" /><input type="hidden" name="encoding_test" value="あいうえお眉幅ABC" /><input
+        type="hidden" name="base_url" id="base_url" value="https://form.os7.biz/" /><input type="hidden" name="urlhash"
+        id="urlhash" value="f/1502f452/" /><input type="hidden" name="oid" id="oid" value="1013293" />
+      <table id="formtable">
+        <tr id="caption">
+          <th colspan="2">お問い合わせ</th>
+        </tr>
+        <tr id="sec_single_seimei">
+          <th>姓名</th>
+          <td><input type="text" name="single_seimei" value="" style="width:180px" id="single_seimei" /></td>
+        </tr>
+        <tr id="sec_mail">
+          <th>メールアドレス <span class="required">必須</span></th>
+          <td><input type="text" name="mail" value="" style="" id="mail" /></td>
+        </tr>
+        <tr id="sec_free1">
+          <th>件名</th>
+          <td><input type="text" name="free1" value="" style="" id="free1" /></td>
+        </tr>
+        <tr id="sec_free2">
+          <th>内容 <span class="required">必須</span></th>
+          <td><textarea name="free2" cols="90" rows="12" style=''></textarea></td>
+        </tr>
+      </table>
+      <br />
+      <div class="OF_center"><input class="OF_submit_btn1" type="button" value="　送　信　" onclick="OF_submit()" /></div>
+      <!-- copyright表示は削除しないでください。-->
+      <div id="copyright" style="color:#002B36; font-size:1px; text-align:center;"> Powered by <a href="http://form.orange-cloud7.net/"
+          style="color:#002B36; font-size:1px; text-decoration:none" target="_blank">メールフォーム 『オレンジフォーム』</a> </div>
+    </form>
+    <!-- [form end] -->
+
+    <div id="copyright" data-21930="opacity:0;" data-22000="opacity:1;">2018 &copy; Suchin-Mendee</div>
+
+
+  </div>
+
+  <div id="back">
+    <a href="#home"></a>
+  </div>
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+    skrollr.init();
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116139894-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116139894-1');
+  </script>
+
+
+  <!-- <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+  <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script> -->
+</body>
+
+</html>
