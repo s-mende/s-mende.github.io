@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/lib/swiper/swiper.min.css">
   <link rel="stylesheet" href="js/lib/styles/xt256.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
   <script src="js/lib/highlight.pack.js"></script>
   <script src="js/lib/swiper/swiper.min.js"></script>
   <script src="js/lib/jquery-2.1.0.min.js"></script>
@@ -61,6 +62,9 @@
           <i class="fa fa-cog fa-2x"></i>
         </li>
       </ul>
+      <div id="test-popup" class="white-popup mfp-hide">
+        Popup content
+      </div>
     </div>
     <div class="side">
       <dl>
@@ -107,10 +111,10 @@
       </div>
       <div class="body">
         <div class="lines">
-          1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9
-          <br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19
-          <br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29
-          <br />30<br />31<br />32<br />33<br />34<br />35<br />36<br />37<br />38<br />39<br />40
+          1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />
+          10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />
+          20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />
+          30<br />31<br />32<br />33<br />34<br />35<br />36<br />37<br />38<br />39<br />
         </div>
         <pre><code id="comment">/************************************
 * s-mende.github.io
@@ -129,7 +133,7 @@ console.log(`${author.Name}`);
       </div>
       <!--/ body -->
 
-      <div id="scroll_attention" data-0="opacity:1;" data-200="opacity:0;">
+      <div id="scroll_attention" class="blinking" data-0="opacity:1;" data-200="opacity:0;">
         スクロールしてください
         <br />
         <div class="down_arrow"></div>
@@ -140,7 +144,7 @@ console.log(`${author.Name}`);
         <!-- スライダー部分 -->
         <div class="swiper-wrapper">
           <iframe class="swiper-slide" src="http://mrdoob.com/projects/chromeexperiments/ball-pool/"></iframe>
-          <iframe class="swiper-slide" src="https://mrdoob.neocities.org/"></iframe>
+          <!-- <iframe class="swiper-slide" src="https://mrdoob.neocities.org/"></iframe> -->
           <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/glsl_sandbox/"></iframe> -->
           <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/voxels/"></iframe> -->
           <!-- <iframe class="swiper-slide" src="http://mrdoob.com/projects/harmony/"></iframe> -->
@@ -151,8 +155,8 @@ console.log(`${author.Name}`);
         </div>
 
         <!-- 左右の矢印ボタン -->
-        <div class="swiper-button-prev">↓</div>
-        <div class="swiper-button-next">＞</div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
         <!-- スクロールバー -->
         <div class="swiper-scrollbar"></div>
@@ -442,6 +446,18 @@ console.log(`${author.Name}`);
     gtag('js', new Date());
 
     gtag('config', 'UA-116139894-1');
+  </script>
+
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $('.setting').magnificPopup({
+      items: [
+        {
+          src: $('<div>Dynamically created element</div>'), // 動的に要素を生成
+          type: 'inline' // デフォルトの type をオーバーライド
+        }
+      ]
+    });
   </script>
 
 
