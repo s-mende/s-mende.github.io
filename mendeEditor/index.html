@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<title>Demo 3 : Add/Remove NicEditors</title>
+	<meta content="text/html" charset="UTF-8">
+	<link href="mendeEdit.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<script src="mendeEdit.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		bkLib.onDomLoaded(function () {
+			var myNicEditor = new nicEditor();
+			myNicEditor.setPanel('myNicPanel');
+			myNicEditor.addInstance('myInstance1');
+			myNicEditor.addInstance('myInstance2');
+			myNicEditor.addInstance('myInstance3');
+		});
+	</script>
+
+	<div id="myNicPanel" style="width: 100%;"></div>
+
+	<div id="myInstance1" style="width: 550px;writing-mode: vertical-lr;-moz-writing-mode: vertical-lr;-webkit-writing-mode: vertical-lr;-webkit-text-orientation: sideways-right;padding: 20px;">ᠪᠢ
+		ᠮᠤᠩᠭᠤᠯ ᠬᠦᠮᠦᠨ ᠪᠠᠢᠨ᠋ ᠠ᠃</div>
+	</div>
+
+
+</body>
+
+</html>
