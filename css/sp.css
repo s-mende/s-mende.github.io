@@ -1398,19 +1398,25 @@ body {
         left: 27.5%; }
       #skills .skills_image .fa-check#CFS {
         top: 28.4%;
-        left: 55%; }
+        left: 4%; }
       #skills .skills_image .fa-check#CSS {
         top: 43.5%;
         left: 50%; }
       #skills .skills_image .fa-check#RUBY {
         top: 51%;
         left: 18%; }
+      #skills .skills_image .fa-check#OBJ {
+        top: 58.5%;
+        left: 4%; }
       #skills .skills_image .fa-check#HTML {
         top: 58.5%;
         left: 54%; }
       #skills .skills_image .fa-check#SASS {
         top: 81%;
         left: 63.5%; }
+      #skills .skills_image .fa-check#PYTH {
+        top: 90%;
+        left: 60%; }
 
 #works ul {
   margin: 0;
