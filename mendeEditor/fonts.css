@@ -1,0 +1,325 @@
+@charset 'UTF-8';
+/*@font-face {
+	font-family: 'MyFontFamily';
+	src: url('myfont-webfont.eot?#iefix') format('embedded-opentype'),
+		url('myfont-webfont.woff') format('woff'),
+		url('myfont-webfont.ttf')  format('truetype'),
+		url('myfont-webfont.svg#svgFontName') format('svg');
+}*/
+
+@font-face {
+    font-family: 'Mongolian Art';
+  src: url('../fonts/delehi/mnglartaat.eot');
+  src: local('Mongolian Art'), url('../fonts/delehi/mnglartaat.woff') format('woff'), url('../fonts/delehi/mnglartaat.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian Dark';
+  src: url('../fonts/delehi/MongolianDark.eot');
+  src: local('Mongolian Dark'), url('../fonts/delehi/MongolianDark.woff') format('woff'), url('../fonts/delehi/MongolianDark.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian HandWriting';
+  src: url('../fonts/delehi/MongolianHandWriting.eot');
+  src: local('Mongolian HandWriting'), url('../fonts/delehi/MongolianHandWriting.woff') format('woff'), url('../fonts/delehi/MongolianHandWriting.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian Sonin';
+  src: url('../fonts/delehi/MongolianSonin.eot');
+  src: local('Mongolian Sonin'), url('../fonts/delehi/MongolianSonin.woff') format('woff'), url('../fonts/delehi/MongolianSonin.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian Universal White';
+  src: url('../fonts/delehi/MongolianUniversalWhite.eot');
+  src: local('Mongolian Universal White'), url('../fonts/delehi/MongolianUniversalWhite.woff') format('woff'), url('../fonts/delehi/MongolianUniversalWhite.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian Utasu';
+  src: url('../fonts/delehi/MongolianUtasu.eot');
+  src: local('Mongolian Utasu'), url('../fonts/delehi/MongolianUtasu.woff') format('woff'), url('../fonts/delehi/MongolianUtasu.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian WhiteTester';
+  src: url('../fonts/delehi/MongolianWhiteTester.eot');
+  src: local('Mongolian WhiteTester'), url('../fonts/delehi/MongolianWhiteTester.woff') format('woff'), url('../fonts/delehi/MongolianWhiteTester.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian ZS';
+  src: url('../fonts/delehi/MongolianZS.eot');
+  src: local('Mongolian ZS'), url('../fonts/delehi/MongolianZS.woff') format('woff'), url('../fonts/delehi/MongolianZS.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian ZX';
+  src: url('../fonts/delehi/MongolianZX.eot');
+  src: local('Mongolian ZX'), url('../fonts/delehi/MongolianZX.woff') format('woff'), url('../fonts/delehi/MongolianZX.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian White';
+  src: url('../fonts/delehi/mnglwhiteoft.eot');
+  src: local('Mongolian White'), url('../fonts/delehi/mnglwhiteoft.woff') format('woff'), url('../fonts/delehi/mnglwhiteoft.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian title';
+  src: url('../fonts/delehi/mngltitleoft.eot');
+  src: local('Mongolian title'), url('../fonts/delehi/mngltitleoft.woff') format('woff'), url('../fonts/delehi/mngltitleoft.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Mongolian writing';
+  src: url('../fonts/delehi/mnglwritingoft.eot');
+  src: local('Mongolian writing'), url('../fonts/delehi/mnglwritingoft.woff') format('woff'), url('../fonts/delehi/mnglwritingoft.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'MongolianScript';
+  src: url('../fonts/MongolianScript.eot');
+  src: local('MongolianScript'), url('../fonts/MongolianScript.woff') format('woff'), url('../fonts/MongolianScript.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'MongolianScript-Modonbar';
+  src: url('../fonts/MongolianScriptModonbar.eot');
+  src: local('MongolianScript-Modonbar'), url('../fonts/MongolianScriptModonbar.woff') format('woff'), url('../fonts/MongolianScriptModonbar.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'mongol Tolbo';
+  src: url('../fonts/mongoltolbo-v5/mongoltolbo.eot');
+  src: local('mongol Tolbo'), url('../fonts/mongoltolbo-v5/mongoltolbo.woff') format('woff'), url('../fonts/mongoltolbo-v5/mongoltolbo.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Noto Sans Mongolian';
+  src: url('../fonts/NotoSansMongolian/NotoSansMongolian-Regular.eot');
+  src: local('Noto Sans Mongolian'), url('../fonts/NotoSansMongolian/NotoSansMongolian-Regular.woff') format('woff'), url('../fonts/NotoSansMongolian/NotoSansMongolian-Regular.ttf') format('truetype');
+
+}
+@font-face {
+  font-family: 'Menk Qagan Tig';
+  src: url('../fonts/MQG8F01.eot');  /*IE9 Compat Modes*/
+  src: url('../fonts/MQG8F01.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/MQG8F01.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/MQG8F01.ttf')  format('truetype'); /* Safari, Android, iOS */
+       /*url('../fonts/MQG8F01.svg#svgFontName') format('svg');*/ /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Menk Amglang Tig';
+  src: url('../fonts/MenksoftOpenType/MenkAmglangTig.eot');
+  src: local('Menk Amglang Tig'), url('../fonts/MenksoftOpenType/MenkAmglangTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkAmglangTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Budun Tig';
+  src: url('../fonts/MenksoftOpenType/MenkBudunTig.eot');
+  src: local('Menk Budun Tig'), url('../fonts/MenksoftOpenType/MenkBudunTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkBudunTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Doroge Tig';
+  src: url('../fonts/MenksoftOpenType/MenkDorogeTig.eot');
+  src: local('Menk Doroge Tig'), url('../fonts/MenksoftOpenType/MenkDorogeTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkDorogeTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Egulen Tig';
+  src: url('../fonts/MenksoftOpenType/MenkEgulenTig.eot');
+  src: local('Menk Egulen Tig'), url('../fonts/MenksoftOpenType/MenkEgulenTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkEgulenTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Erihe Tig';
+  src: url('../fonts/MenksoftOpenType/MenkEriheTig.eot');
+  src: local('Menk Erihe Tig'), url('../fonts/MenksoftOpenType/MenkEriheTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkEriheTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Garqag Tig';
+  src: url('../fonts/MenksoftOpenType/MenkGarqagTig.eot');
+  src: local('Menk Garqag Tig'), url('../fonts/MenksoftOpenType/MenkGarqagTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkGarqagTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk HarA Tig';
+  src: url('../fonts/MenksoftOpenType/MenkHarATig.eot');
+  src: local('Menk HarA Tig'), url('../fonts/MenksoftOpenType/MenkHarATig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkHarATig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Hawang Tig';
+  src: url('../fonts/MenksoftOpenType/MenkHawangTig.eot');
+  src: local('Menk Hawang Tig'), url('../fonts/MenksoftOpenType/MenkHawangTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkHawangTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Hvlvsvn Tig';
+  src: url('../fonts/MenksoftOpenType/MenkHvlvsvnTig.eot');
+  src: local('Menk Hvlvsvn Tig'), url('../fonts/MenksoftOpenType/MenkHvlvsvnTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkHvlvsvnTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Lhundb Tig';
+  src: url('../fonts/MenksoftOpenType/MenkLhundbTig.eot');
+  src: local('Menk Lhundb Tig'), url('../fonts/MenksoftOpenType/MenkLhundbTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkLhundbTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Mcdvnbar Tig';
+  src: url('../fonts/MenksoftOpenType/MenkMcdvnbarTig.eot');
+  src: local('Menk Mcdvnbar Tig'), url('../fonts/MenksoftOpenType/MenkMcdvnbarTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkMcdvnbarTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Narin Tig';
+  src: url('../fonts/MenksoftOpenType/MenkNarinTig.eot');
+  src: local('Menk Narin Tig'), url('../fonts/MenksoftOpenType/MenkNarinTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkNarinTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Qimed Tig';
+  src: url('../fonts/MenksoftOpenType/MenkQimedTig.eot');
+  src: local('Menk Qimed Tig'), url('../fonts/MenksoftOpenType/MenkQimedTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkQimedTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Qimig Tig';
+  src: url('../fonts/MenksoftOpenType/MenkQimigTig.eot');
+  src: local('Menk Qimig Tig'), url('../fonts/MenksoftOpenType/MenkQimigTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkQimigTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Qingming Tig';
+  src: url('../fonts/MenksoftOpenType/MenkQingmingTig.eot');
+  src: local('Menk Qingming Tig'), url('../fonts/MenksoftOpenType/MenkQingmingTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkQingmingTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Scnin Tig';
+  src: url('../fonts/MenksoftOpenType/MenkScninTig.eot');
+  src: local('Menk Scnin Tig'), url('../fonts/MenksoftOpenType/MenkScninTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkScninTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Sidam Tig';
+  src: url('../fonts/MenksoftOpenType/MenkSidamTig.eot');
+  src: local('Menk Sidam Tig'), url('../fonts/MenksoftOpenType/MenkSidamTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkSidamTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Svgunag Tig';
+  src: url('../fonts/MenksoftOpenType/MenkSvgunagTig.eot');
+  src: local('Menk Svgunag Tig'), url('../fonts/MenksoftOpenType/MenkSvgunagTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkSvgunagTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Svlbiya Tig';
+  src: url('../fonts/MenksoftOpenType/MenkSvlbiyaTig.eot');
+  src: local('Menk Svlbiya Tig'), url('../fonts/MenksoftOpenType/MenkSvlbiyaTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkSvlbiyaTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Tegus Tig';
+  src: url('../fonts/MenksoftOpenType/MenkTegusTig.eot');
+  src: local('Menk Tegus Tig'), url('../fonts/MenksoftOpenType/MenkTegusTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkTegusTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Tenigun Tig';
+  src: url('../fonts/MenksoftOpenType/MenkTenigunTig.eot');
+  src: local('Menk Tenigun Tig'), url('../fonts/MenksoftOpenType/MenkTenigunTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkTenigunTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Tvgvrai Tig';
+  src: url('../fonts/MenksoftOpenType/MenkTvgvraiTig.eot');
+  src: local('Menk Tvgvrai Tig'), url('../fonts/MenksoftOpenType/MenkTvgvraiTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkTvgvraiTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Ujug Tig';
+  src: url('../fonts/MenksoftOpenType/MenkUjugTig.eot');
+  src: local('Menk Ujug Tig'), url('../fonts/MenksoftOpenType/MenkUjugTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkUjugTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Vran Tig';
+  src: url('../fonts/MenksoftOpenType/MenkVranTig.eot');
+  src: local('Menk Vran Tig'), url('../fonts/MenksoftOpenType/MenkVranTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkVranTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Vyangga Tig';
+  src: url('../fonts/MenksoftOpenType/MenkVyanggaTig.eot');
+  src: local('Menk Vyangga Tig'), url('../fonts/MenksoftOpenType/MenkVyanggaTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkVyanggaTig.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Menk Xvsiga Tig';
+  src: url('../fonts/MenksoftOpenType/MenkXvsigaTig.eot');
+  src: local('Menk Xvsiga Tig'), url('../fonts/MenksoftOpenType/MenkXvsigaTig.woff') format('woff'), url('../fonts/MenksoftOpenType/MenkXvsigaTig.ttf') format('truetype');
+}
+
+div.tate-area{
+	float:left;
+	transform:rotede(90deg);
+	font-size:12pt;
+}
+div.tate-area a{
+	color:#119;
+	text-decoration:none;
+}
+
+div.tate-line{
+	float:left;
+	width:1.05em;
+	line-height:1.05em;
+	margin-right:0.3em;
+	margin-left:0.3em;
+	padding-bottom:0.2em;
+	/*font-family:'ヒラギノ角ゴ ProN','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ Pro','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ ゴシック','MS Gothic','SimHei','HiraKakuProN-W3','STHeitiJ-Medium','TakaoExゴシック','TakaoExGothic','MotoyaLCedar','Droid Sans Japanese','Droid Sans Fallback',monospace;*/
+	/*font-family: 'Mongolian Art';*/
+	font-family: 'Mongolian White';
+	word-wrap:break-word;
+	direction:ltr;
+}
+.tate-line font,strong,h1,h2,h3,h4,h5{
+	line-height:1.05em;
+}
+
+.tate-line span.tate-kuto{
+	display:block;
+	width:0.4em;
+	line-height:0.1em !Important;
+	margin-bottom:0.9em;
+	margin-left:0.6em !Important;
+}
+.tate-line span.tate-cho{
+	display:block;
+	-moz-transform:matrix(0, 1, 1, 0, 0, 0);
+	-webkit-transform:matrix(0, 1, 1, 0, 0, 0);
+	-o-transform:matrix(0, 1, 1, 0, 0, 0);
+	transform:matrix(0, 1, 1, 0, 0, 0);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1, mirror=1);
+}
+.tate-line span.tate-komoji{
+	display:block;
+	line-height:0.75em !Important;
+	margin-bottom:0.3em;
+	margin-left:0.11em !Important;
+}
+.tate-line span.tate-kakko{
+	display:block;
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	transform:rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+div.tate-separator{
+	clear:both;
+	height:2em;
+}
+
+/* フォントサイズ変更時のフォント位置アジャスト用 */
+.tate-line .font08{ font-size:8pt; }
+.tate-line .font10{ font-size:10pt; }
+.tate-line .font12{ font-size:12pt; }
+.tate-line .font14{ font-size:14pt; }
+.tate-line .font18{ font-size:18pt; }
+.tate-line .font24{ font-size:24pt; }
+.tate-line h1{ font-size:24pt; font-weight:bold; }
+.tate-line h2{ font-size:18pt; font-weight:bold; }
+.tate-line h3{ font-size:14pt; font-weight:bold; }
+.tate-line h4{ font-size:12pt; font-weight:bold; }
+
+.tate-line .font08 , .tate-line .font10 , .tate-line .font12 , .tate-line .font14 , .tate-line .font18 , .tate-line .font24 , .tate-line h1 , .tate-line h2 , .tate-line h3 , .tate-line h4 , .tate-line font  {
+	display:block;
+	position:relative;
+	left:50%;
+	width:1em;
+	line-height:1.05em;
+	margin-left:-0.5em;
+}

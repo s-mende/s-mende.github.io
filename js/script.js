@@ -100,7 +100,7 @@ $(function () {
   $(window).scroll(function () {
     $scroll = $(this).scrollTop();
     if ($scroll < 4000) {
-      $code.html(codeText.substring(0, Math.round($scroll / 6)) + cursor);
+      $code.html(codeText.substring(0, Math.round($scroll / 4)) + cursor);
       var currentCode = $code.text();
       var lines = currentCode.match(/\n/g);
       $lineNum.text(commentLineNum + (lines ? lines.length : 0));

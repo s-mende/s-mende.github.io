@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/*  */
+body{
+	/*font-family:  sans-serif ;*/
+	font-family: Mongolian Art;
+	/*font-family: 'Menk Qagan Tig';*/
+	/*font-family: 'Mongolian White';*/
+	font-size:11pt;
+}
+a{
+	text-decoration:none;
+}
+div#container{
+	width:900px;
+}
+div#header{
+	width:76%;
+	margin-bottom:6px;
+	margin-left:12%;
+	border:solid 1px #aaa;
+	background-color:#ddf;
+	text-align:center;
+	-moz-border-radius:5px; /* FF1+ */
+	-webkit-border-radius:5px; /* S3+  */
+	border-radius:5px; /* O10.5+ , IE9 , S5 , C */
+	-moz-box-shadow:2px 2px 2px #999; /* FF3.5+ */
+	-webkit-box-shadow:2px 2px 2px #999; /* S3+ , C */
+	box-shadow:2px 2px 2px #999; /* O10.5+ , IE9 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=145, Strength=3); /* IE8- */
+}
+div#header h2{
+	text-shadow:2px 2px 2px #999;
+}
+div#left{
+	float:left;
+	width:600px;
+	padding-right:10px;
+	padding-left:10px;
+	text-align:right;
+}
+div#right{
+	float:left;
+	width:250px;
+	margin-top:4em;
+	border-left:solid 1px #888;
+	color:#333;
+	font-size:10pt;
+}
+div#footer{
+	clear:both;
+	height:1.8em;
+	width:95%;
+	margin-left:2.5%;
+	padding-top:0.5em;
+	background-color:#ddf;
+	border:solid 1px #aaa;
+	color:#666;
+	text-align:right;
+	font-size:9pt;
+}
+div#hmenu{
+	height:1.4em;
+	background-color:#eee;
+	border:solid 1px #eee;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:2px 2px 2px #999;
+	-webkit-box-shadow:2px 2px 2px #999;
+	box-shadow:2px 2px 2px #999;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=145, Strength=3); /* IE8- */
+}
+div#hmenu a{
+	color:#119;
+	text-decoration:none;
+}
+span#current{
+	color:#a33;
+}
+div.contents{
+	clear:both;
+	padding-left:1.45em;
+	text-align:left;
+}
+div.contentsinner{
+	padding-left:1.2em;
+	line-height:1.45em;
+	color:#333;
+	font-size:10pt;
+}
+.contentsinner a{
+	color:#3d7b22;
+	font-weight:bold;
+}
+div.separator{
+	clear:both;
+	height:2em;
+}
+span.new{
+	color:red;
+}
+span.old{
+	color:blue;
+}
+
+div#sidemenu{
+	padding-left:1.5em;
+	line-height:1.35em;
+	font-size:9pt;
+}
+#sidemenu a{
+	text-decoration:none;
+}
+#sidemenu span{
+	color:red;
+}
+div.grayBox{
+	margin: 0.3em 2.5em 0.3em 2.5em;
+	padding:0.5em;
+	background-color:#e9e9e9;
+}
+div.grayBoxs{
+	margin: 0.3em 2.5em 0.3em 2.5em;
+	padding:0.5em;
+	font-size:9pt;
+	background-color:#e9e9e9;
+}
+ul.plain{
+}
+ul.plain a{
+	font-size:8pt;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#00f;
+}
+div.footerad{
+	margin-left:90px;
+	margin-top:0.7em;
+	margin-bottom:0.7em;
+}
