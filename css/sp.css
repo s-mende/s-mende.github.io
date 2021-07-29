@@ -1396,9 +1396,15 @@ body {
       #skills .skills_image .fa-check#PHP {
         top: 28.4%;
         left: 27.5%; }
+      #skills .skills_image .fa-check#EC-CUBE {
+        top: 36%;
+        left: 29%; }
       #skills .skills_image .fa-check#CFS {
         top: 28.4%;
-        left: 4%; }
+        left: 3.5%; }
+      #skills .skills_image .fa-check#WORDPRESS {
+        top: 43.8%;
+        left: 9%; }
       #skills .skills_image .fa-check#CSS {
         top: 43.5%;
         left: 50%; }
@@ -1407,13 +1413,22 @@ body {
         left: 18%; }
       #skills .skills_image .fa-check#OBJ {
         top: 58.5%;
-        left: 4%; }
+        left: 3.5%; }
       #skills .skills_image .fa-check#HTML {
         top: 58.5%;
         left: 54%; }
+      #skills .skills_image .fa-check#ANDROID {
+        top: 65.8%;
+        left: 21%; }
+      #skills .skills_image .fa-check#CC {
+        top: 73.5%;
+        left: 15%; }
       #skills .skills_image .fa-check#SASS {
         top: 81%;
         left: 63.5%; }
+      #skills .skills_image .fa-check#SHOPIFY {
+        top: 81%;
+        left: 26%; }
       #skills .skills_image .fa-check#PYTH {
         top: 90%;
         left: 60%; }
